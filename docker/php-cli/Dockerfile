@@ -5,7 +5,7 @@ RUN apt-get update && apt-get install -y zip unzip git curl libnss3 libatk1.0-0 
     libpango1.0.0 libcairo2 libasound2 libxfixes3 libatk-bridge2.0.0 \
     zlib1g-dev libpng-dev libjpeg-dev libfreetype6-dev
 
-RUN curl -sL https://deb.nodesource.com/setup_14.x | bash
+RUN curl -sL https://deb.nodesource.com/setup_20.x | bash
 RUN apt-get install -yq nodejs build-essential
 
 RUN npm install -g npm
